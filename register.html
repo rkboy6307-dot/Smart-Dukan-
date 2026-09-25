@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Register | Smart Dukan</title><link rel="stylesheet" href="style.css"></head>
+<body><header class="top"><a href="index.html" class="brand">🛍️ Smart Dukan</a></header>
+<main class="formwrap"><div class="card"><h1>Apni Dukaan Register Karein</h1><p class="muted">Launch plan: <b>₹99/year</b></p>
+<form id="regForm">
+<label>Shop Name*<input name="shopName" required></label><label>Owner Name*<input name="ownerName" required></label>
+<label>Mobile Number*<input name="mobile" inputmode="numeric" pattern="[0-9]{10}" required></label><label>WhatsApp Number<input name="whatsapp" inputmode="numeric" pattern="[0-9]{10}"></label>
+<label>Shop Address*<textarea name="address" required></textarea></label><label>Google Maps Link<input name="mapLink" type="url"></label>
+<label>About Shop<textarea name="about"></textarea></label><label>Opening Time<input name="opening" type="time"></label><label>Closing Time<input name="closing" type="time"></label>
+<label>Categories / Products<textarea name="products" placeholder="Example: Shirts, Jeans, T-Shirts"></textarea></label>
+<label>Google Review Link<input name="reviewLink" type="url"></label>
+<label>Payment UTR / Transaction ID*<input name="utr" required></label>
+<button class="btn" type="submit">Registration Submit Karein</button>
+</form><div id="result"></div></div></main><script src="app.js"></script></body></html>
